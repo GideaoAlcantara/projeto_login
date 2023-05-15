@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgb(91, 27, 119);
+}
+
+body>main{
+    position: relative;
+}
+
+
+main>section{
+    background-color: white;
+    height: 650px;
+    width: 400px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-10%);
+
+    margin-top: 100px;
+    border-radius: 10px;  
+   
+}
+
+main>section>img{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+section>form>h1{
+    text-align: center;
+}
+
+section>p{
+    padding: 10px;
+}

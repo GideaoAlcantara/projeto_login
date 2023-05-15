@@ -30,6 +30,7 @@
   'opsz' 48
 }
 
+/*---------------------------*/
 
 
 body{
@@ -43,8 +44,8 @@ body>main{
 
 main>section{
     background-color: white;
-    height: 750px;
-    width: 400px;
+    width: 380px;
+   
 
     position: relative;
     top: 50%;
@@ -59,7 +60,7 @@ main>section{
 
 main>section>div{
    height: 300px;
-   width: 400px;
+   width: 380px;
 
    border-top-right-radius: 10px;
    border-top-left-radius: 10px;
@@ -90,9 +91,48 @@ section>form>p.caixaroxo{
     align-items: center;
     margin-bottom: 10px;
     border-radius: 10px;
+    padding: 5px;
    
+ }
+
+ section>form>p.caixaroxo>input{
+        padding: 10px;
  }
 
  section>form>p#texto{
     margin-bottom: 10px;
+    line-height: 25px;
  }
+
+ section>form>p#entrar>input{
+   display: block;
+   margin: auto;
+   width: 360px;
+   padding: 10px;
+   background-color: #6cb6b6;
+   border: 1px solid #6cb6b6;
+   color: white;
+ }
+
+ section>form>p#entrar>input:hover{
+    background-color: #296f6f;
+    border: 1px solid #6cb6b6;
+    color: white;
+  }
+ 
+
+
+ section>form>p#esqueci>input{
+    display: block;
+    margin-top: 10px;
+    width: 360px;
+    padding: 10px;
+    border: 1px solid #6cb6b6;
+    color:  #3b8888;
+  }
+
+  section>form>p#esqueci>input:hover{
+    border: 1px solid #6cb6b6;
+    color:  white;
+    background-color: #3b6363;
+  }

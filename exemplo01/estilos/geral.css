@@ -33,8 +33,10 @@
 /*---------------------------*/
 
 
-body{
+body,html{
     background-color: #5b1b77;
+    width: 100vw;
+    height: 100vh;
 }
 
 body>main{
@@ -44,15 +46,15 @@ body>main{
 
 main>section{
     background-color: white;
-    width: 380px;
+    max-width: 380px;
    
 
-    position: relative;
+    position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-10%);
+    transform: translate(-50%,5%);
 
-    margin-top: 100px;
+    margin: auto;
     border-radius: 10px; 
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.348); 
    
@@ -97,6 +99,7 @@ section>form>p.caixaroxo{
 
  section>form>p.caixaroxo>input{
         padding: 10px;
+       
  }
 
  section>form>p#texto{
